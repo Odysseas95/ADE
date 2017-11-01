@@ -1,9 +1,23 @@
+<!DOCTYPE html>
 <html>
 <head>
-    <title>Array</title> 
+    <title>Table</title> 
 	<meta charset="UTF-8">
 </head>
 <body>
+<pre><?php $students=array(
+	array('43818','9','ΑΘΑΝΑΣΙΑΔΗΣ','ΟΔΥΣΣΕΑΣ'), 
+	array("43844","9","ΚΑΡΒΕΛΑΣ","ΝΙΚΟΣ"),
+	array("43851","9","ΚΟΥΜΑΝΔΡΑΚΗΣ","ΑΝΤΩΝΗΣ")
+);
+print_r($students);
+?></pre>
+
+
+
+
+
+
 
 <p>
  <table < bordercolor="#C0C0C0" width="315" align="center" border="1" cellspacing="0" cellpadding="0" style="solid" >
@@ -16,6 +30,7 @@
 
     <th>ακ.ετ</th>
     <th colspan="2" align="center">(x)2017-18</th>
+	<th colspan="2"> </th>
   </tr>
   <tr>
     <th colspan="2">ΤΜΗΜΑ</th>
@@ -25,7 +40,7 @@
   <tr>
 
     <th colspan="2" align="center">OMADA</th>
-    <td colspan="1"> </td>
+    <td colspan="3" align="center"> B1 </td>
    </tr>
     <th colspan="5" height="20">  </th> 
    <tr>
@@ -36,22 +51,9 @@
      <th align="center">ΟΝΟΜΑ</th>
     </tr>
     <tr>
-     <td align="center">1</td>
-     <td align="right">43844</td>
-     <td align="center">9</td>
-     <td align="left">Καρβέλας</td>
-     <td align="left">Νίκος</td>
-
-    </tr>
-    <tr>
-    <td align="center">2</td>
-    <td align="right">43818</td>
-    <td align="center">9</td>
-    <td align="left">Αθανασιάδης</td>
-    <td align="left">Οδυσσέας</td>
     
- </tr>
  <tr>
+	<?php for ?>
   <td align="center">3</td>
   <td align="right">43851</td>
   <td align="center">9</td>
