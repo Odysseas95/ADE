@@ -46,7 +46,7 @@
 
    <?php for ($i=0; $i<=2; $i++){?>
  <tr>	
- 	<td align="center"><?php print_r($i)?></td>
+ 	<td align="center"><?php print_r($i+1)?></td>
  		<?php for ($j=0; $j<4; $j++){ ?>
      <td align="center"><?php print_r($students[$i][$j]);}}?></td>
  </tr>
