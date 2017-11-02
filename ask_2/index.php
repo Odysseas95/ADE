@@ -10,10 +10,7 @@
 	array(43818,9,"Αθανασιάδης","Οδυσσέας"), 
 	array(43844,9,"Καρβέλας","Νίκος"),
 	array(43851,9,"Κουμανδράκης","Αντώνης")
-);
-?>
-
-
+);?>
 
 <p>
  <table < bordercolor="#C0C0C0" width="315" align="center" border="1" cellspacing="0" cellpadding="0" style="solid" >
@@ -46,6 +43,7 @@
      <th align="center">ΕΠΩΝΥΜΟ</th>
      <th align="center">ΟΝΟΜΑ</th>
     </tr>
+
    <?php for ($i=0; $i<=2; $i++){?>
  <tr>	
  	<td align="center"><?php print_r($i)?></td>
