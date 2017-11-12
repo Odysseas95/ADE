@@ -48,19 +48,21 @@
      <th align="center">ΟΝΟΜΑ</th>
     </tr>
 
-   
- 	<tr>
-	   <td align="center"> <?php foreach($ar as $ar_item){
-		 echo "$ar_item <br>"; }?> </td>
-		<td align="center">  <?php foreach($am as $am_item){
-		 echo "$am_item <br>"; }?> </td>
-		 <td align="center">  <?php foreach($sem as $sem_item){
-		 echo "$sem_item <br>"; }?> </td>
-		 <td align="left">  <?php foreach($Lname as $Lname_item){
-		 echo "$Lname_item <br>"; }?> </td>
-		 <td align="left">  <?php foreach($Fname as $Fname_item){
-		 echo "$Fname_item <br>"; }?> </td>
-</tr>
+<?php 
+$names = fopen("names.txt", "r") or die("Unable to open file!");
+$x = fread($names,filesize("names.txt"));
+fclose($names); 
+
+$z = explode("\x0A",$x);
+
+?>
+
+	<?php foreach($z as $k=>$v){ 
+		$w = explode(';',rtrim($v,";"));?>
+	<tr>
+		<?php foreach( $w as $td ) {?>
+			<td align="center"><?php echo $td;}}?></td>
+	</tr>
 	 
 		 
  
