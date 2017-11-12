@@ -13,7 +13,7 @@
 );?>
 
 <p>
- <table < bordercolor="#C0C0C0" width="315" align="center" border="1" cellspacing="0" cellpadding="0" style="solid" >
+ <table < bordercolor="#C0C0C0" width="315" align="center" border="1" >
   <tr> 
     <th align="center">Εργ.</th>  
     <th colspan="4">ΑΔΕ</th>
@@ -35,7 +35,7 @@
     <th colspan="2" align="center">OMADA</th>
     <td colspan="3" align="center"> B1 </td>
    </tr>
-    <th colspan="5" height="20">  </th> 
+    <th colspan="5"> &nbsp; </th> 
    <tr>
      <th align="center">aa</th>
      <th align="center">AM</th>
