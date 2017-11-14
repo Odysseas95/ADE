@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
     <title>Table</title> 
@@ -6,9 +6,7 @@
 </head>
 <body>
 
-<?php $students1=array(1,43818,9,"Αθανασιάδης","Οδυσσέας");
- 	  $students2=array(2,43844,9,"Καρβέλας","Νίκος");
-	  $students3=array(3,43851,9,"Κουμανδράκης","Αντώνης");
+<?php 
 	  $ar=array(1,2,3);
 	  $am=array(43818,43844,43851);
 	  $sem=array(9,9,9);
@@ -16,7 +14,6 @@
 	  $Fname=array("Οδυσσέας","Νίκος","Αντώνης");
 ?>
 
-<p>
  <table < bordercolor="#C0C0C0" width="315" align="center" border="1" >
   <tr> 
     <th align="center">Εργ.</th>  
@@ -47,28 +44,50 @@
      <th align="center">ΕΠΩΝΥΜΟ</th>
      <th align="center">ΟΝΟΜΑ</th>
     </tr>
-
-<?php 
-$names = fopen("names.txt", "r") or die("Unable to open file!");
-$x = fread($names,filesize("names.txt"));
-fclose($names); 
-
-$z = explode("\x0A",$x);
-
-?>
-
-	<?php foreach($z as $k=>$v){ 
-		$w = explode(';',rtrim($v,";"));?>
-	<tr>
-		<?php foreach( $w as $td ) {?>
-			<td align="center"><?php echo $td;}}?></td>
-	</tr>
-	 
-		 
- 
-
-
-	</table> 
+	
+<tr>
+ 	   <td align="center"> <?php foreach($ar as $ar_item){
+ 		 echo "$ar_item <br>"; }?> </td>
+ 		<td align="center">  <?php foreach($am as $am_item){
+ 		 echo "$am_item <br>"; }?> </td>
+ 		 <td align="center">  <?php foreach($sem as $sem_item){
+ 		 echo "$sem_item <br>"; }?> </td>
+ 		 <td align="left">  <?php foreach($Lname as $Lname_item){
+ 		 echo "$Lname_item <br>"; }?> </td>
+ 		 <td align="left">  <?php foreach($Fname as $Fname_item){
+ 		 echo "$Fname_item <br>"; }?> </td>
+ </tr>
+</table> 
+<center>
+	<p>	
+	<a href="http://std.weblab.teipir.gr/~web_wed21/ask_2/index.php" class="previous">&laquo; Previous</a> 
+	<a href="http://std.weblab.teipir.gr/~web_wed21/index.html"> Home </a>	
+	<a href="http://std.weblab.teipir.gr/~web_wed21/ask_4/index.php" class="next">Next &raquo;</a>
+	<pre></pre> 
 	</p>
+			<table border = "1">
+			<tr>
+				<th> AA </th>
+				<th>ΠΙΝΑΚΑΣ ΠΕΡΙΕΧΟΜΕΝΩΝ</th>
+			</tr>
+			<tr>
+				<td><a href="http://std.weblab.teipir.gr/~web_wed21/index.html"> ASK_1 </a>  </td>
+				<td> Πίνακας HTML</td>
+			</tr>
+			<tr>
+				<td><a href="http://std.weblab.teipir.gr/~web_wed21/ask_2/index.php"> ASK_2 </a>  </td>
+				<td> Πίνακας με χρηση PHP</td>
+			</tr>	
+			<tr>
+				<td><a href="http://std.weblab.teipir.gr/~web_wed21/ask_3/index.php"> ASK_3 </a>  </td>
+				<td> Πίνακας με χρηση PHP(foreach)</td>
+			</tr>	
+			<tr>
+				<td><a href="http://std.weblab.teipir.gr/~web_wed21/ask_2/index.php"> ASK_4 </a>  </td>
+				<td> Πίνακας με χρηση PHP(fopen,fread,fclose) </td>
+			</tr>	
+				
+		</table>
+</center>
 	</body>
 </html>
