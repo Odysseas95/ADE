@@ -54,7 +54,7 @@
 	</table> 
 <center>
 	<p>	
-		<a href="http://std.weblab.teipir.gr/~web_wed231/index.html" class="previous">&laquo; Previous</a> 	
+		<a href="http://std.weblab.teipir.gr/~web_wed21/index.html" class="previous">&laquo; Previous</a> 	
 		<a href="http://std.weblab.teipir.gr/~web_wed21/index.html"> Home </a>	
 		<a href="http://std.weblab.teipir.gr/~web_wed21/ask_3/index.php" class="next">Next &raquo;</a>
 		<pre></pre> 
