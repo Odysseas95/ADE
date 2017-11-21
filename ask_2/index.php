@@ -5,7 +5,16 @@
 	<meta charset="UTF-8">
 </head>
 <body>
+<center>
+	<p>	
+		<a href="http://std.weblab.teipir.gr/~web_wed21/index.html"> <img src="http://std.weblab.teipir.gr/~web_wed21/back.png"></a> 	
+		<a href="http://std.weblab.teipir.gr/~web_wed21/index.html"> <img src="http://std.weblab.teipir.gr/~web_wed21/house.png"></a>	
+		<a href="http://std.weblab.teipir.gr/~web_wed21/ask_3/index.php"> <img src="http://std.weblab.teipir.gr/~web_wed21/next.png"></a>
+		<pre></pre> 
+	</p>
 
+
+</center>
 <?php $students=array(
 	array(43818,9,"Αθανασιάδης","Οδυσσέας"), 
 	array(43844,9,"Καρβέλας","Νίκος"),
@@ -54,35 +63,12 @@
 	</table> 
 <center>
 	<p>	
-		<a href="http://std.weblab.teipir.gr/~web_wed21/index.html" class="previous">&laquo; Previous</a> 	
-		<a href="http://std.weblab.teipir.gr/~web_wed21/index.html"> Home </a>	
-		<a href="http://std.weblab.teipir.gr/~web_wed21/ask_3/index.php" class="next">Next &raquo;</a>
+		<a href="http://std.weblab.teipir.gr/~web_wed21/index.html"> <img src="http://std.weblab.teipir.gr/~web_wed21/back.png"></a> 	
+		<a href="http://std.weblab.teipir.gr/~web_wed21/index.html"> <img src="http://std.weblab.teipir.gr/~web_wed21/house.png"></a>	
+		<a href="http://std.weblab.teipir.gr/~web_wed21/ask_3/index.php"> <img src="http://std.weblab.teipir.gr/~web_wed21/next.png"></a>
 		<pre></pre> 
 	</p>
 
-		<table border = "1">
-			<tr>
-				<th> AA </th>
-				<th>ΠΙΝΑΚΑΣ ΠΕΡΙΕΧΟΜΕΝΩΝ</th>
-			</tr>
-			<tr>
-				<td><a href="http://std.weblab.teipir.gr/~web_wed21/index.html"> ASK_1 </a>  </td>
-				<td> Πίνακας HTML</td>
-			</tr>
-			<tr>
-				<td><a href="http://std.weblab.teipir.gr/~web_wed21/ask_2/index.php"> ASK_2 </a>  </td>
-				<td> Πίνακας με χρηση PHP</td>
-			</tr>	
-			<tr>
-				<td><a href="http://std.weblab.teipir.gr/~web_wed21/ask_3/index.php"> ASK_3 </a>  </td>
-				<td> Πίνακας με χρηση PHP(foreach)</td>
-			</tr>	
-			<tr>
-				<td><a href="http://std.weblab.teipir.gr/~web_wed21/ask_2/index.php"> ASK_4 </a>  </td>
-				<td> Πίνακας με χρηση PHP(fopen,fread,fclose) </td>
-			</tr>	
-				
-		</table>
 
 </center>
 	</body>
