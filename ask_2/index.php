@@ -12,6 +12,7 @@
 		<a href="http://std.weblab.teipir.gr/~web_wed21/ask_3/index.php"> <img src="http://std.weblab.teipir.gr/~web_wed21/next.png"></a>
 		<pre></pre> 
 	</p>
+<<<<<<< HEAD
 <?php 
 $page = 2;
 include 'D:\xampp\htdocs\ADE\navigation.php';
