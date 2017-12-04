@@ -5,6 +5,13 @@
 	<meta charset="UTF-8">
 </head>
 <body>
+<center>
+	<p>	
+		<a href="http://std.weblab.teipir.gr/~web_wed21/ask_3"> <img src="http://std.weblab.teipir.gr/~web_wed21/back.png"></a> 	
+		<a href="http://std.weblab.teipir.gr/~web_wed21/index.html"> <img src="http://std.weblab.teipir.gr/~web_wed21/house.png"></a>	
+		<a href="http://std.weblab.teipir.gr/~web_wed21/ask_5"> <img src="http://std.weblab.teipir.gr/~web_wed21/next.png"></a>
+		<pre></pre> 
+	</p>
 
 <?php $students1=array(1,43818,9,"Αθανασιάδης","Οδυσσέας");
  	  $students2=array(2,43844,9,"Καρβέλας","Νίκος");
@@ -17,7 +24,7 @@
 ?>
 
 <p>
- <table < bordercolor="#C0C0C0" width="315" align="center" border="1" >
+ <table bordercolor="#C0C0C0" width="315" align="center" border="1" >
   <tr> 
     <th align="center">Εργ.</th>  
     <th colspan="4">ΑΔΕ</th>
@@ -54,7 +61,6 @@ $x = fread($names,filesize("names.txt"));
 fclose($names); 
 
 $z = explode("\x0A",$x);
-
 ?>
 
 	<?php foreach($z as $k=>$v){ 
@@ -67,34 +73,12 @@ $z = explode("\x0A",$x);
 </table> 
 
 <center>
-
-<p>
-	<a href="http://std.weblab.teipir.gr/~web_wed21/ask_3/index.php" class="previous">&laquo; Previous</a> 
-	<a href="http://std.weblab.teipir.gr/~web_wed21/index.html"> Home </a>	
-</p>
-	<table border = "1">
-			<tr>
-				<th> AA </th>
-				<th>ΠΙΝΑΚΑΣ ΠΕΡΙΕΧΟΜΕΝΩΝ</th>
-			</tr>
-			<tr>
-				<td><a href="http://std.weblab.teipir.gr/~web_wed21/index.html"> ASK_1 </a>  </td>
-				<td> Πίνακας HTML</td>
-			</tr>
-			<tr>
-				<td><a href="http://std.weblab.teipir.gr/~web_wed21/ask_2/index.php"> ASK_2 </a>  </td>
-				<td> Πίνακας με χρηση PHP</td>
-			</tr>	
-			<tr>
-				<td><a href="http://std.weblab.teipir.gr/~web_wed21/ask_3/index.php"> ASK_3 </a>  </td>
-				<td> Πίνακας με χρηση PHP(foreach)</td>
-			</tr>	
-			<tr>
-				<td><a href="http://std.weblab.teipir.gr/~web_wed21/ask_2/index.php"> ASK_4 </a>  </td>
-				<td> Πίνακας με χρηση PHP(fopen,fread,fclose) </td>
-			</tr>	
-				
-		</table>
+	<p>	
+		<a href="http://std.weblab.teipir.gr/~web_wed21/ask_3"> <img src="http://std.weblab.teipir.gr/~web_wed21/back.png"></a> 	
+		<a href="http://std.weblab.teipir.gr/~web_wed21/index.html"> <img src="http://std.weblab.teipir.gr/~web_wed21/house.png"></a>	
+		<a href="http://std.weblab.teipir.gr/~web_wed21/ask_5"> <img src="http://std.weblab.teipir.gr/~web_wed21/next.png"></a>
+		<pre></pre> 
 	</p>
+</center>
 	</body>
 </html>

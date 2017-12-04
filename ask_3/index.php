@@ -5,7 +5,16 @@
 	<meta charset="UTF-8">
 </head>
 <body>
+<center>
+	<p>	
+		<a href="http://std.weblab.teipir.gr/~web_wed21/ask_2"> <img src="http://std.weblab.teipir.gr/~web_wed21/back.png"></a> 	
+		<a href="http://std.weblab.teipir.gr/~web_wed21/index.html"> <img src="http://std.weblab.teipir.gr/~web_wed21/house.png"></a>	
+		<a href="http://std.weblab.teipir.gr/~web_wed21/ask_4"> <img src="http://std.weblab.teipir.gr/~web_wed21/next.png"></a>
+		<pre></pre> 
+	</p>
 
+
+</center>
 <?php 
 	  $ar=array(1,2,3);
 	  $am=array(43818,43844,43851);
@@ -60,34 +69,13 @@
 </table> 
 <center>
 	<p>	
-	<a href="http://std.weblab.teipir.gr/~web_wed21/ask_2/index.php" class="previous">&laquo; Previous</a> 
-	<a href="http://std.weblab.teipir.gr/~web_wed21/index.html"> Home </a>	
-	<a href="http://std.weblab.teipir.gr/~web_wed21/ask_4/index.php" class="next">Next &raquo;</a>
-	<pre></pre> 
+		<a href="http://std.weblab.teipir.gr/~web_wed21/ask_2"> <img src="http://std.weblab.teipir.gr/~web_wed21/back.png"></a> 	
+		<a href="http://std.weblab.teipir.gr/~web_wed21/index.html"> <img src="http://std.weblab.teipir.gr/~web_wed21/house.png"></a>	
+		<a href="http://std.weblab.teipir.gr/~web_wed21/ask_4"> <img src="http://std.weblab.teipir.gr/~web_wed21/next.png"></a>
+		<pre></pre> 
 	</p>
-			<table border = "1">
-			<tr>
-				<th> AA </th>
-				<th>ΠΙΝΑΚΑΣ ΠΕΡΙΕΧΟΜΕΝΩΝ</th>
-			</tr>
-			<tr>
-				<td><a href="http://std.weblab.teipir.gr/~web_wed21/index.html"> ASK_1 </a>  </td>
-				<td> Πίνακας HTML</td>
-			</tr>
-			<tr>
-				<td><a href="http://std.weblab.teipir.gr/~web_wed21/ask_2/index.php"> ASK_2 </a>  </td>
-				<td> Πίνακας με χρηση PHP</td>
-			</tr>	
-			<tr>
-				<td><a href="http://std.weblab.teipir.gr/~web_wed21/ask_3/index.php"> ASK_3 </a>  </td>
-				<td> Πίνακας με χρηση PHP(foreach)</td>
-			</tr>	
-			<tr>
-				<td><a href="http://std.weblab.teipir.gr/~web_wed21/ask_2/index.php"> ASK_4 </a>  </td>
-				<td> Πίνακας με χρηση PHP(fopen,fread,fclose) </td>
-			</tr>	
-				
-		</table>
+
+
 </center>
 	</body>
 </html>
