@@ -7,8 +7,8 @@
 <body>
 <center>
 	<p>	
-		<a href="http://std.weblab.teipir.gr/~web_wed21/ask_4"> <img src="http://std.weblab.teipir.gr/~web_wed21/back.png"></a> 	
-		<a href="http://std.weblab.teipir.gr/~web_wed21/index.html"> <img src="http://std.weblab.teipir.gr/~web_wed21/house.png"></a>	
+		<?php $ask=5;
+      include '../navigation.php';?>	
 	</p>
 </center>
 
@@ -42,8 +42,8 @@ $z = explode("\x0A",$x);
 </table>
 <center>
 	<p>	
-		<a href="http://std.weblab.teipir.gr/~web_wed21/ask_4"> <img src="http://std.weblab.teipir.gr/~web_wed21/back.png"></a> 	
-		<a href="http://std.weblab.teipir.gr/~web_wed21/index.html"> <img src="http://std.weblab.teipir.gr/~web_wed21/house.png"></a>	
+		<?php $ask=5;
+      include '../navigation.php';?>	
 	</p>
 </center>
 	</body>

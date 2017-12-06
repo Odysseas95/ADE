@@ -6,14 +6,10 @@
 </head>
 <body>
 <center>
-	<p>	
-		<a href="http://std.weblab.teipir.gr/~web_wed21/ask_2"> <img src="http://std.weblab.teipir.gr/~web_wed21/back.png"></a> 	
-		<a href="http://std.weblab.teipir.gr/~web_wed21/index.html"> <img src="http://std.weblab.teipir.gr/~web_wed21/house.png"></a>	
-		<a href="http://std.weblab.teipir.gr/~web_wed21/ask_4"> <img src="http://std.weblab.teipir.gr/~web_wed21/next.png"></a>
-		<pre></pre> 
-	</p>
-
-
+  <p>  
+    <?php $ask=3;
+      include '../navigation.php';?>
+  </p>
 </center>
 <?php 
 	  $ar=array(1,2,3);
@@ -69,10 +65,8 @@
 </table> 
 <center>
 	<p>	
-		<a href="http://std.weblab.teipir.gr/~web_wed21/ask_2"> <img src="http://std.weblab.teipir.gr/~web_wed21/back.png"></a> 	
-		<a href="http://std.weblab.teipir.gr/~web_wed21/index.html"> <img src="http://std.weblab.teipir.gr/~web_wed21/house.png"></a>	
-		<a href="http://std.weblab.teipir.gr/~web_wed21/ask_4"> <img src="http://std.weblab.teipir.gr/~web_wed21/next.png"></a>
-		<pre></pre> 
+		<?php $ask=3;
+      include '../navigation.php';?>
 	</p>
 
 

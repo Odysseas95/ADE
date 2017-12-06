@@ -6,18 +6,10 @@
 </head>
 <body>
 <center>
-	<p>	
-		<a href="http://std.weblab.teipir.gr/~web_wed21/index.html"> <img src="http://std.weblab.teipir.gr/~web_wed21/back.png"></a> 	
-		<a href="http://std.weblab.teipir.gr/~web_wed21/index.html"> <img src="http://std.weblab.teipir.gr/~web_wed21/house.png"></a>	
-		<a href="http://std.weblab.teipir.gr/~web_wed21/ask_3/index.php"> <img src="http://std.weblab.teipir.gr/~web_wed21/next.png"></a>
-		<pre></pre> 
+	<p>	 
+    <?php $ask=2;
+      include '../navigation.php';?>
 	</p>
-<<<<<<< HEAD
-<?php 
-$page = 2;
-include 'D:\xampp\htdocs\ADE\navigation.php';
-?>
-
 </center>
 <?php $students=array(
 	array(43818,9,"Αθανασιάδης","Οδυσσέας"), 
@@ -67,10 +59,8 @@ include 'D:\xampp\htdocs\ADE\navigation.php';
 	</table> 
 <center>
 	<p>	
-		<a href="http://std.weblab.teipir.gr/~web_wed21/index.html"> <img src="http://std.weblab.teipir.gr/~web_wed21/back.png"></a> 	
-		<a href="http://std.weblab.teipir.gr/~web_wed21/index.html"> <img src="http://std.weblab.teipir.gr/~web_wed21/house.png"></a>	
-		<a href="http://std.weblab.teipir.gr/~web_wed21/ask_3/index.php"> <img src="http://std.weblab.teipir.gr/~web_wed21/next.png"></a>
-		<pre></pre> 
+		<?php $ask=2;
+      include '../navigation.php';?>
 	</p>
 
 

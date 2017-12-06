@@ -7,10 +7,8 @@
 <body>
 <center>
 	<p>	
-		<a href="http://std.weblab.teipir.gr/~web_wed21/ask_3"> <img src="http://std.weblab.teipir.gr/~web_wed21/back.png"></a> 	
-		<a href="http://std.weblab.teipir.gr/~web_wed21/index.html"> <img src="http://std.weblab.teipir.gr/~web_wed21/house.png"></a>	
-		<a href="http://std.weblab.teipir.gr/~web_wed21/ask_5"> <img src="http://std.weblab.teipir.gr/~web_wed21/next.png"></a>
-		<pre></pre> 
+		<?php $ask=4;
+      include '../navigation.php';?>
 	</p>
 
 <?php $students1=array(1,43818,9,"Αθανασιάδης","Οδυσσέας");
@@ -74,10 +72,8 @@ $z = explode("\x0A",$x);
 
 <center>
 	<p>	
-		<a href="http://std.weblab.teipir.gr/~web_wed21/ask_3"> <img src="http://std.weblab.teipir.gr/~web_wed21/back.png"></a> 	
-		<a href="http://std.weblab.teipir.gr/~web_wed21/index.html"> <img src="http://std.weblab.teipir.gr/~web_wed21/house.png"></a>	
-		<a href="http://std.weblab.teipir.gr/~web_wed21/ask_5"> <img src="http://std.weblab.teipir.gr/~web_wed21/next.png"></a>
-		<pre></pre> 
+		<?php $ask=4;
+      include '../navigation.php';?> 
 	</p>
 </center>
 	</body>

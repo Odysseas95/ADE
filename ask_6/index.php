@@ -5,7 +5,12 @@
 	<meta charset="UTF-8">
 </head>
 <body>
-
+<center>
+  <p> 
+    <?php $ask=6;
+      include '../navigation.php';?> 
+  </p>
+</center>
 
 <table < bordercolor="#C0C0C0" width="315" align="center" border="1" >
   <tr> 
@@ -38,30 +43,28 @@
      <th align="center">ΟΝΟΜΑ</th>
     </tr>
 <?php 
-
-$dblink = mysqli_connect("std.weblab.teipir.gr", "web_wed21",
-"w170e7cda0") or die ("Could not connect");
-
-mysqli_select_db($dblink,"web_wed21")
-or die ("could not select");
-
-mysqli_query($dblink,"SET CHARACTER SET UTF8");
+include '../db_connect.php';
 
 $query = "SELECT * FROM Students";
 
-$result = mysqli_query($dblink,$query)
-or die('Query failed: ' . mysqli_error());
+$result = mysql_query($query)
+or die('Query failed: ' . mysql_error());
 
 $i=0;
-while ($row=mysqli_fetch_array($result)) {
-    $i++?>
+while ($row=mysql_fetch_array($result, MYSQL_ASSOC)) { $i++?>
 <tr>
-<td align="center"><?php echo $i; ?></td>
-<td align="center"><?php echo $row["AM"]?></td>
-<td align="center"><?php echo $row["Sem"];?></td>
-<td align="center"><?php echo $row["LastName"];?></td>
-<td align="center"><?php echo $row["FirstName"];}?></td>
+	<td align="center"><?php echo $i; ?></td>
+	<td align="center"><?php echo $row["AM"]?></td>
+	<td align="center"><?php echo $row["Sem"];?></td>
+	<td align="center"><?php echo $row["LastName"];?></td>
+	<td align="center"><?php echo $row["FirstName"];}?></td>
 </tr>
-	</table> 
+	</table>
+  <center>
+  <p> 
+    <?php $ask=6;
+      include '../navigation.php';?> 
+  </p>
+</center> 
 </body>
 </html>
